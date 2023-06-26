@@ -20,7 +20,7 @@ curl --output 10mb.txt 'https://raw.githubusercontent.com/jamesward/play-load-te
   -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
   --compressed
 
-docker-compose up --build
+docker-compose up --build -d 
 ```
 
 Then navigate to `localhost/grafana` to view the metrics 
